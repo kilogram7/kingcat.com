@@ -1,0 +1,119 @@
+* {  
+    padding: 0%; margin: 0%;  
+  }  
+    
+  header {  
+    background-color: #dbc39d;  
+    width: 100%; height: auto;
+    display: flex;  
+    justify-content:space-between;  
+  }  
+    
+  nav{  
+    background-color:aliceblue;  
+    font-size: smaller;  
+  }  
+    
+  nav ul{  
+    list-style-type: none;  
+    display: flex;  
+  }  
+    
+  nav ul li{  
+    padding: 20px;  
+    color: peru;
+  }  
+    
+  nav ul li a{  
+    text-decoration: none;  
+  }
+  nav ul li a:hover{
+    border:burlywood;
+    border-radius: 8px;
+    background-color: #dbc39d;
+  }
+.logo{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(114, 82, 7);
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+p{
+  text-align: center;
+  color: peru;
+  font-size: 50px;
+}
+.img1 img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.int_text{
+  width: 100%; height: 70px;
+  background-color: #dbc39d;
+  text-align:center;
+  color: rgb(159, 82, 6);
+  font-size: 2rem;
+  align-items: center;
+}
+.kh_int_text{
+  font-family: Khmer OS Bokor;
+}
+.eng_int_text{
+  font-family: Segoe UI;
+}
+.Boxcontaner{
+  width: 100%; height: auto;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Boxcard{
+  width: 300px; height: auto;
+  background-color: rgb(207, 231, 252);
+  border-radius: 8px;
+  color: green;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom:20px;
+}
+#BoxImg{
+  width: 100%; height:400px;
+  object-fit: cover;
+}
+.Boxheading{
+  color: rgb(10, 194, 13);
+  padding: 10px;
+  font-size: 21px;
+  text-align: center;
+}
+.BoxPrice{
+  color:red;
+  padding: 10px;
+  font-size: 21px;
+  text-align: center;
+}
+.btn_buy{
+  color: rgb(10, 194, 13);
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+.btn_Readmore{
+  color: rgb(10, 194, 13);
+  padding: 10px;
+  font-size: 15px;
+}
+.footer{
+  background-color:#dbc39d;
+  width: 100%; 
+  height: 500px;
+ padding: 20px;
+}
